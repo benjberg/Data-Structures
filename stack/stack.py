@@ -31,7 +31,7 @@ class Stack:
         else:
             self.size -= 1 
             return self.storage.remove_tail()
-
+            
 # class Stack:
 #     def __init__(self):
 #         self.size = 0
