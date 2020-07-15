@@ -121,7 +121,7 @@ class DoublyLinkedList:
     """
     def delete(self, node):
         if node.prev:
-            node.prev.nex = node.next
+            node.prev.next = node.next
         else:
             self.head = node.next
         if node.next:
